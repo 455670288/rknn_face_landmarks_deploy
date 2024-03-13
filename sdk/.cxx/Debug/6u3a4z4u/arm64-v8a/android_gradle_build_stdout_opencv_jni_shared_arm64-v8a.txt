@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\Codes\Temp\rknn_yolov5_android_apk_demo\sdk\.cxx\Debug\6u3a4z4u\arm64-v8a'
+ninja: no work to do.

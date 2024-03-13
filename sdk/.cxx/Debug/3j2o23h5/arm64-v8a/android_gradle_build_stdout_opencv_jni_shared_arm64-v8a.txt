@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\Codes\BeautyCamera\rknn_yolov5_android_apk_demo_detect_glsurface\sdk\.cxx\Debug\3j2o23h5\arm64-v8a'
+ninja: no work to do.

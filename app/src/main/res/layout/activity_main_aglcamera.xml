@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityAGLcamera">
+
+    <com.aglframework.smzh.camera.CameraPreview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:id="@+id/camera_preview"/>
+
+    <ImageView
+        android:id="@+id/canvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+<!--  FIXME UI CHANGE1 修改按钮为图片  -->
+    <ImageView
+        android:id="@+id/capture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/btn_shutter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:layout_margin="100dp"
+        android:visibility="gone"/>
+
+    <!--  FIXME UI CHANGE3 新增功能按钮  -->
+    <ImageView
+        android:id="@+id/btn_beauty"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/icon_delight"
+        app:layout_constraintBottom_toBottomOf="@+id/capture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/capture" />
+
+    <HorizontalScrollView
+        android:id="@+id/sv_tool_bar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:scrollbarThumbHorizontal="@drawable/scrollbar"
+        android:scrollbarSize="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/capture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll_makeup_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+
+            <ImageView
+                android:id="@+id/iv_makeup_lips"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/makeup_lips" />
+
+            <ImageView
+                android:id="@+id/iv_makeup_eyebrow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/makeup_eyebrow" />
+
+            <ImageView
+                android:id="@+id/iv_makeup_eyeshadow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/makeup_eyeshadow" />
+
+            <ImageView
+                android:id="@+id/iv_makeup_pupil"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/makeup_pupil" />
+
+            <ImageView
+                android:id="@+id/iv_makeup_furrow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/makeup_furrow" />
+
+            <ImageView
+                android:id="@+id/iv_makeup_blusher"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/makeup_blusher" />
+
+            <ImageView
+                android:id="@+id/iv_beauty_lighten"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/beauty_lighten" />
+
+            <ImageView
+                android:id="@+id/iv_beauty_smooth"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/beauty_smooth" />
+
+            <ImageView
+                android:id="@+id/iv_face_thinner"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/face_thinner" />
+
+            <ImageView
+                android:id="@+id/iv_sticker_glasses"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/sticker_glasses" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <SeekBar
+        android:id="@+id/sb_density"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="0"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/sv_tool_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_compare"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/icon_compare"
+        app:layout_constraintBottom_toTopOf="@+id/sb_density"
+        app:layout_constraintEnd_toEndOf="@+id/btn_beauty"
+        app:layout_constraintStart_toStartOf="@+id/btn_beauty" />
+
+
+</android.support.constraint.ConstraintLayout>

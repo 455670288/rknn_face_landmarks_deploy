@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/3588/rknpu2/rknpu2-master/examples/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/181c4j6p/arm64-v8a",
+  "command": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\opencv_jni_shared.dir\\dummy.cpp.o -c E:\\3588\\rknpu2\\rknpu2-master\\examples\\rknn_yolov5_android_apk_demo\\sdk\\libcxx_helper\\dummy.cpp",
+  "file": "E:\\3588\\rknpu2\\rknpu2-master\\examples\\rknn_yolov5_android_apk_demo\\sdk\\libcxx_helper\\dummy.cpp"
+}
+]

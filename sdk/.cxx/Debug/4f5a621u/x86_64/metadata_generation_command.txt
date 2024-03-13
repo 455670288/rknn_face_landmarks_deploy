@@ -1,0 +1,24 @@
+                    Executable : D:\DevelopmentTools\Android\SDK\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HE:\Codes\BeautyCamera\rknn_yolov5_android_apk_demo_glsurface\sdk\libcxx_helper
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=D:\DevelopmentTools\Android\SDK\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=D:\DevelopmentTools\Android\SDK\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=D:\DevelopmentTools\Android\SDK\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\DevelopmentTools\Android\SDK\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Codes\BeautyCamera\rknn_yolov5_android_apk_demo_glsurface\sdk\build\intermediates\cxx\Debug\4f5a621u\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\Codes\BeautyCamera\rknn_yolov5_android_apk_demo_glsurface\sdk\build\intermediates\cxx\Debug\4f5a621u\obj\x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-BE:\Codes\BeautyCamera\rknn_yolov5_android_apk_demo_glsurface\sdk\.cxx\Debug\4f5a621u\x86_64
+-GNinja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

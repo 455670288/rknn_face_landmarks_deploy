@@ -1,0 +1,3 @@
+F:/AndroidStudio/WorkSpace/3partApps/3588sPad/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/6w6v2w41/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+F:/AndroidStudio/WorkSpace/3partApps/3588sPad/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/6w6v2w41/arm64-v8a/CMakeFiles/edit_cache.dir
+F:/AndroidStudio/WorkSpace/3partApps/3588sPad/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/6w6v2w41/arm64-v8a/CMakeFiles/rebuild_cache.dir

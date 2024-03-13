@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 非选中状态 -->
+    <item
+        android:drawable="@drawable/icon_compare_normal"
+        android:state_hovered="false"/>
+
+    <!-- 选中状态 -->
+    <item
+        android:drawable="@drawable/icon_compare_hover"
+        android:state_hovered="true"/>
+</selector>

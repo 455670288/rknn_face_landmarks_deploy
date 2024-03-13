@@ -1,0 +1,7 @@
+Executable : C:\Users\user\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+D:\Users\user\Desktop\rknn_yolov5_android_apk_demo_detect_glsurface\sdk\.cxx\Debug\23x5v1y2\arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+

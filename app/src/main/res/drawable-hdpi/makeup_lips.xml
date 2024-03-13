@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/icon_makeup_lips_unavailable"
+        android:state_selected="false"
+        android:state_activated="false"/>
+
+    <!--  选中：白色  -->
+    <item
+        android:drawable="@drawable/icon_makeup_lips"
+        android:state_activated="true"/>
+
+    <item
+        android:drawable="@drawable/icon_makeup_lips_selected"
+        android:state_selected="true"
+        android:state_activated="false"/>
+</selector>

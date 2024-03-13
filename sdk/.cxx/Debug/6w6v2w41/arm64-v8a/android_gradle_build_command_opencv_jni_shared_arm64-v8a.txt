@@ -1,0 +1,7 @@
+Executable : C:\Users\user\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+F:\AndroidStudio\WorkSpace\3partApps\3588sPad\rknn_yolov5_android_apk_demo\sdk\.cxx\Debug\6w6v2w41\arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+

@@ -1,0 +1,24 @@
+                    Executable : C:\Users\user\AppData\Local\Android\Sdk\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HE:\3588\rknpu2\rknpu2-master\examples\rknn_yolov5_android_apk_demo\sdk\libcxx_helper
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=C:\Users\user\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=C:\Users\user\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\user\AppData\Local\Android\Sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\user\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\3588\rknpu2\rknpu2-master\examples\rknn_yolov5_android_apk_demo\sdk\build\intermediates\cxx\Debug\181c4j6p\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\3588\rknpu2\rknpu2-master\examples\rknn_yolov5_android_apk_demo\sdk\build\intermediates\cxx\Debug\181c4j6p\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-BE:\3588\rknpu2\rknpu2-master\examples\rknn_yolov5_android_apk_demo\sdk\.cxx\Debug\181c4j6p\x86
+-GNinja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

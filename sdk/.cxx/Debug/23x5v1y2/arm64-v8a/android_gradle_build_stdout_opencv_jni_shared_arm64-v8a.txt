@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Users\user\Desktop\rknn_yolov5_android_apk_demo_detect_glsurface\sdk\.cxx\Debug\23x5v1y2\arm64-v8a'
+ninja: no work to do.

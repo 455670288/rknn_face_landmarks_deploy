@@ -1,0 +1,2 @@
+ninja: Entering directory `F:\AndroidStudio\WorkSpace\3partApps\3588sPad\rknn_yolov5_android_apk_demo\sdk\.cxx\Debug\6w6v2w41\arm64-v8a'
+ninja: no work to do.

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <SurfaceView
+        android:id="@+id/surfaceViewCamera1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.rockchip.gpadc.demo.view.XYGLSurfaceView
+        android:id="@+id/glsurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/canvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/title_bg">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/app_title"
+            android:textColor="@color/title_text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="201dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/img_logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_gravity="left |top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/fps_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="25dp"
+            android:text="@string/powered_by_rockchip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0099cc"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/fps_num1"
+            android:layout_width="23dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/fps_text"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/fps_num2"
+            android:layout_width="23dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/fps_text"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:gravity="bottom |center_horizontal"
+            android:text="."
+            android:textColor="@color/title_text"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/fps_num3"
+            android:layout_width="23dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/fps_text"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/fps_num4"
+            android:layout_width="23dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/num_bg"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/fps_text"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="FPS"
+            android:textColor="@color/title_text"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/function_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/func_lip_stick"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_lip" />
+
+        <ImageView
+            android:id="@+id/func_delight"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_delight" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/function_close_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/function_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_close" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lip_stick_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/lip_stick_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/lip_stick_no_color"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_no" />
+
+            <ImageView
+                android:id="@+id/lip_stick_color_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/lip_stick_1" />
+
+            <ImageView
+                android:id="@+id/lip_stick_color_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/lip_stick_2" />
+
+            <ImageView
+                android:id="@+id/lip_stick_color_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/lip_stick_3" />
+
+            <ImageView
+                android:id="@+id/lip_stick_color_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/lip_stick_4" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/lip_stick_density"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:max="10"
+            android:progress="3"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>

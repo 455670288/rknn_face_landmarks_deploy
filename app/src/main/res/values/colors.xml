@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bg">#50001631</color>
+    <color name="title_text">#06ebff</color>
+    <color name="fps_text">#001631</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="dior_999">#9f1313</color>
+    <color name="tf_16">#a01f22</color>
+    <color name="chanel_58">#98283a</color>
+    <color name="dior_649">#c4615a</color>
+    <color name="givenchy_16">#745a69</color>
+</resources>

@@ -1,0 +1,3 @@
+G:/aDownload/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/4h3g5m12/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
+G:/aDownload/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/4h3g5m12/armeabi-v7a/CMakeFiles/edit_cache.dir
+G:/aDownload/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/4h3g5m12/armeabi-v7a/CMakeFiles/rebuild_cache.dir

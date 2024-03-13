@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="dior_999">
+        <item>159</item>
+        <item>19</item>
+        <item>19</item>
+    </integer-array>
+
+    <integer-array name="tf_16">
+        <item>160</item>
+        <item>31</item>
+        <item>34</item>
+    </integer-array>
+
+    <integer-array name="chanel_58">
+        <item>152</item>
+        <item>40</item>
+        <item>58</item>
+    </integer-array>
+
+    <integer-array name="dior_649">
+        <item>196</item>
+        <item>97</item>
+        <item>90</item>
+    </integer-array>
+
+    <integer-array name="givenchy_16">
+        <item>116</item>
+        <item>90</item>
+        <item>105</item>
+    </integer-array>
+</resources>

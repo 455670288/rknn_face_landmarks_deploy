@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_jni_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_jni_shared-Debug-120ca0d0dd15d8070e1d.json",
+					"name" : "opencv_jni_shared",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/AndroidStudio/WorkSpace/3partApps/3588sPad/rknn_yolov5_android_apk_demo/sdk/.cxx/Debug/6w6v2w41/arm64-v8a",
+		"source" : "F:/AndroidStudio/WorkSpace/3partApps/3588sPad/rknn_yolov5_android_apk_demo/sdk/libcxx_helper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
