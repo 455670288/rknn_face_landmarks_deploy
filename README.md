@@ -1,5 +1,6 @@
 # Introduction
  - rknn_yolov5_android_apk_demo is the one showing how to deploy yolov5s model on the android apk on RK3566_RK3568, RK3562 or RK3588
+ - 已配置加载opencv库，可直接编译运行
 
 
 
