@@ -78,3 +78,6 @@ E/SurfaceView: Exception configuring surface
 ```
 
 This is casued by the unsupported camera resolution , modifying CAMERA_PREVIEW_WIDTH in "app/src/main/java/com/rockchip/gpadc/demo/rga/HALDefine.java" for supported resolution.
+
+# Reference
+https://github.com/rockchip-linux/rknpu2/tree/master/examples/rknn_yolov5_android_apk_demo
